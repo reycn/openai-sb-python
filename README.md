@@ -18,33 +18,13 @@ You don't need this source code unless you want to modify the package. If you ju
 want to use the package, just run:
 
 ```sh
-pip install --upgrade openai
+pip install --upgrade git+https://github.com/reycn/openai-sb-python.git
 ```
 
 Install from source with:
 
 ```sh
 python setup.py install
-```
-
-### Optional dependencies
-
-Install dependencies for [`openai.embeddings_utils`](openai/embeddings_utils.py):
-
-```sh
-pip install openai[embeddings]
-```
-
-Install support for [Weights & Biases](https://wandb.me/openai-docs):
-
-```
-pip install openai[wandb]
-```
-
-Data libraries like `numpy` and `pandas` are not installed by default due to their size. They’re needed for some functionality of this library, but generally not for talking to the API. If you encounter a `MissingDependencyError`, install them with:
-
-```sh
-pip install openai[datalib]
 ```
 
 ## Usage
