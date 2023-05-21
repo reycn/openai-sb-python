@@ -1,10 +1,14 @@
 # OpenAI-SB Python Library
 
-The [OpenAI-SB](https://openai-sb.com/) wrapper of the OpenAI Python library provides convenient access to the OpenAI API
+The [OpenAI-SB](https://openai-sb.com/) wrapper of the OpenAI Python
+library provides convenient access to the OpenAI API
 from applications written in the Python language. It includes a
 pre-defined set of classes for API resources that initialize
 themselves dynamically from API responses which makes it compatible
 with a wide range of versions of the OpenAI API.
+
+See [OpenAI-SB Documentation](https://openai-sb.com/api/openai/) for
+supported models and more usage information.
 
 You can find usage examples for the OpenAI Python library in our [API reference](https://beta.openai.com/docs/api-reference?lang=python) and the [OpenAI Cookbook](https://github.com/openai/openai-cookbook/).
 
